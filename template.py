@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
 project_name="textsummarizer"
-m
+
 list_of_files=[
     ".github/workflows/.gitkeep",#required while uploading to cloud
     f"src/{project_name}/__init__.py",#for importing initpy(constructor file) is needed to consider that file as a local package
